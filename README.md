@@ -1,4 +1,4 @@
-## dotty-records
+## dotty-records [W.I.P]
 
 Polymorphic extensible records with structural subtyping for Dotty.
 
@@ -6,6 +6,9 @@ Using fork of Dotty 0.8 compiler: <https://github.com/obkson/dotty/tree/dotty-re
 
 ### Example Usage
 
+W.I.P
+
+<!--
 Assuming the library is [compiled](compiling) using the Dotty fork, fire up a dotty REPL with `dotty-records` on the class path:
 
 ```
@@ -65,6 +68,7 @@ val res2: records.Record{name: String; age: Int; ssn: String}
   = Record(name=Olle, age=14, ssn=AAA-GG-SSSS)
 ```
 
+-->
 
 ### Compiling
 

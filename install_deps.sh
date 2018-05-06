@@ -25,4 +25,4 @@ mkdir -p "$DOTTY_LIB_TRG/dotty-interfaces/0.8.0-bin-SNAPSHOT" \
 
 
 # Uncomment to automatically purge the local maven cache:
-rm -r ~/.m2/repository/ch/epfl/lamp
+# rm -r ~/.m2/repository/ch/epfl/lamp
