@@ -95,9 +95,16 @@
                               <argument>-explain</argument>
                               <argument>-d</argument>
                               <argument>${project.basedir}/target/classes/</argument>
+
                               <argument>src/main/scala/records/Record.scala</argument>
                               <argument>src/main/scala/records/ops.scala</argument>
-                              <argument>src/main/scala/records/Main.scala</argument>
+
+                              <argument>src/main/scala/hlist/HList.scala</argument>
+                              <argument>src/main/scala/hlist/Selector.scala</argument>
+                              <argument>src/main/scala/hlist/RecordConverter.scala</argument>
+                              <argument>src/main/scala/hlist/ops.scala</argument>
+
+                              <argument>src/main/scala/Main.scala</argument>
                             </arguments>
                         </configuration>
                     </execution>
@@ -108,7 +115,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>records.Main</mainClass>
+                            <mainClass>Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

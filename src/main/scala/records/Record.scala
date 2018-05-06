@@ -16,9 +16,9 @@ class Record(val _data: Map[String, Any]) extends Selectable {
 
 object Record {
 
-  // def apply(args: (String, Any)*) = new Record(Map(args: _*))
-
   def unapply(d: Record): Option[Map[String, Any]] = Some(d._data)
+
+  def apply() = new Record(Map[String, Any]())
 
   def apply[L1 <: String, V1, F1 <: Selectable]
   (f1: Field[L1, V1])
