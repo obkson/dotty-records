@@ -1,2 +1,4 @@
 /repo
 /target
+.idea
+dotty-records.iml
