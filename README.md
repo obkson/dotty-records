@@ -114,5 +114,5 @@ mvn clean compile assembly:single
 ```
 
 ```
-(cd target && java -jar dotty-records-0.1-jar-with-dependencies.jar)
+java -jar target/dotty-records_0.8-0.1-jar-with-dependencies.jar
 ```
